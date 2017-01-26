@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+.main {
+    background-image: url('../../assets/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.touts {
+    width: 32%;
+    height: 200px;
+    display: inline-block;
+}
+.container2 {
+    width: 100%;
+    background-color: white;
+    /*margin-left: -5%;*/
+    margin-right: -50%;
+}
+/*Hamburger Menu and Logo*/
+.logo {
+    width: 050px;
+    /*margin-left: 5%;*/
+    position: absolute;
+}
+.hdr {
+    width: 140px;
+    margin-left: 60px;
+}
+/*Content Below menu and Content*/
+.container {
+    margin-top: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.subheading {
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+
+}
+.heading {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-top: -2%;
+}
+.summary {
+    margin-top: 10%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.learn-more {
+    border: 1px solid white;
+    background-color: white;
+    height: 40px;
+    width: 50%;
+    margin-top: 3%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: teal;
+}
+.learn-more::after {
+    content: '>';
+    float: right;
+}
+
+.container2 {
+    /*width: 100%;*/
+    margin-top: 20%;
+    /*background-image: url("../../assets/3touts.png");*/
+    height: 600px;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media only screen and (min-width:700px) {
+    /*Hamburger Menu and Logo*/
+    .logo {
+        width: 100px;
+        /*margin-left: 5%;*/
+        position: absolute;
+    }
+    .hdr {
+        width: 280px;
+        margin-left: 120px;
+        display: block;
+
+    }
+    /*Content Below menu and Content*/
+    .container {
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .subheading {
+
+    }
+    .heading {
+
+        margin-top: 2%;
+    }
+    .summary {
+        margin-top: 2%;
+    }
+    .learn-more {
+
+    }
+    .learn-more::after {
+        content: '>';
+        float: right;
+    }
+}
