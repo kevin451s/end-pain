@@ -6,7 +6,7 @@
         <title></title>
         <link href="./css/sass/style.css" rel="stylesheet"/>
     </head>
-    <body class="main">
+    <!-- <body class="main">
         <header>
             <img src="./assets/hamburger-lines.png" alt="hamburger-lines" class="logo" />
             <img src="./assets/end-pain.png" alt="logo" class="hdr"/>
@@ -18,15 +18,146 @@
 
                 <button class="learn-more"> Learn More </button>
         </div>
-        <script src="js/plugins/jquery-3.1.0.min.js"></script>
-        <script src="js/plugins/jquery.unveil.js"></script>
-        <script src="js/plugins/modernizr.min.js"></script>
-    </body>
-    <section>
         <div class="container2">
-            <img src=" " data-src="./assets/carrot.png" alt="3-touts" class="touts"/>
-            <img src=" " data-src="./assets/grass.png" alt="3-touts" class="touts"/>
-            <img src=" " data-src="./assets/phone.png" alt="3-touts" class="touts"/>
+            <ul class="list">
+                <li class="list-items twotout">
+                    <img class="lazy 3touts app-tout" src="blank.png" alt="Contributor" data-src="./assets/carrot.jpg" height="120px" width="120px"/>
+                    <br class="desktop"/>
+                        <h3 class="text"> Become a <br class="phone"/> contributor </h3>
+                            <p class="text"> Nunc eget ex ullamcorper, vulputate magna vel, interdum metus. </p>
+                </li>
+                <hr class="row">
+                <li class="list-items twotout">
+                    <img class="lazy 3touts app-tout" src="blank.jpeg" alt="Partner" data-src="./assets/grass.jpg" height="120px" width="120px"/>
+                    <br class="desktop"/>
+                        <h3 class="text"> Become a  <br class="phone"/> Partner </h3>
+                            <p class="text"> Ut allequet, risus sit amet vestibulum luctus, lorem torto lobortis felis, quis comdimentum augue leo nec elit. </p>
+                </li>
+                <hr class="row">
+                <li class="list-items">
+                    <img class="lazy 3touts app-tout" src="blank.jpeg" alt="Subscriber" data-src="./assets/phone.jpg" height="120px" width="120px"/>
+                    <br class="desktop"/>
+                        <h3 class="text"> Become a  <br class="phone"/> Subscriber </h3>
+                            <p class="text"> Donec laculis molestle lacinta. Etlam orci odio, convallis acquam eu, scelerisque. </p>
+                </li>
+            </ul>
         </div>
-    </section>
+        <div class="app-download">
+            <h2> PELLENTESQUE <br/> A QUAM </h2>
+                <p> Pellentesque tempor tortor sed turpis dignissimm at facilisis elit ultrices. Ali quam eu feugiat diam. Cras molestle purus ornare venenatis condimentum. Curabitur lobortis nisi in consecteur rhoncus. </p>
+
+            <img class="lazy iphone-image phone" src="blank.jpg" data-src="./assets/iphone.png" height="480px" width="640px"/>
+            <img class="lazy appstore-image phone" src="blank.jpg" data-src="./assets/appstore.png" height="175px" width="525px"/>
+            <img class="lazy googleplay-image phone" src="blank.jpg" data-src="./assets/google-play-image.png" height="50px" width="154px"/>
+            <!-- Images for desktop Version
+            <img class="lazy iphone-image desktop" src="blank.jpg" data-src="./assets/iphone-desktop.png" height="80px" width="140px"/>
+            <img class="lazy appstore-image desktop" src="blank.jpg" data-src="./assets/appstore.png" height="175px" width="525px"/>
+            <img class="lazy googleplay-image desktop" src="blank.jpg" data-src="./assets/google-play-image.png" height="50px" width="154px"/>
+        </div>
+    </body> -->
+    <body>
+        <header class="header">
+            <button type="button" id="navToggle" class="nav__toggle">
+                <i class="icon icon--hamburger"></i>
+            </button>
+            <i class="icon icon--endpain"></i>
+        </header>
+        <div class="logo">
+                <div class="logo-content">
+                    <h4 class="logo-content"> ALIQUAM SED RISUS AUGUE </h4>
+                        <h1 class="logo-header"> LOREM IPSUM DOLOR <br> SIT AMET </h1>
+                            <p class="logo-content"> Pellentesque tempor torto sed turpis dignissim at facilisis elit ultrices. Ali quam eu feugiat diam. Cras molestle purus ornare venenatis condimentum. Curabitur lobortis nisl in consectetur rhoncus. In arcu arcu, consectetur interdum faucibus et, pulvinar facilis augue. Curabitur at elementum torot, in rutrum mauris. </p>
+                                <button class="logo-button"> LEARN MORE </button>
+                </div>
+            </div>
+            <div class="touts">
+                <div class="toutsContainer touts__right-border">
+                    <img class="carrot-tout" alt="carrot" src="/assets/images/carrot.png"/>
+                        <h4 class="carrot-tout__heading"> BECOME A <br/> CONTRIBUTOR </h4>
+                            <p class="carrot-tout__content"> Nunc eget ex ullamcorper, vulputate magna vel, interdum metus. </p>
+                </div>
+                <hr class="phone tout__line-break"/>
+                <div class="toutsContainer touts__right-border">
+                    <img class="grass-tout" alt="grass" src="/assets/images/grass.png"/>
+                        <h4 class="grass-tout__heading"> BECOME A <br/> PARTNER </h4>
+                            <p class="grass-tout__content"> Nunc eget ex ullamcorper, vulputate magna vel, interdum metus. </p>
+                </div>
+                <hr class="phone tout__line-break"/>
+                <div class="toutsContainer">
+                    <img class="phone-tout" alt="phone" src="/assets/images/phone.png"/>
+                        <h4 class="phone-tout__heading"> BECOME A <br/> SUBSCRIBER </h4>
+                            <p class="phone-tout__content"> Nunc eget ex ullamcorper, vulputate magna vel, interdum metus. </p>
+                </div>
+            </div>
+            <div class="app-tout">
+                <div class="app-tout-container">
+                    <h2 class="app-tout__heading"> PELLENTESQUE<br/> A QUAM </h2>
+                        <p class="app-tout__content"> Pellentesque tempor tortor sed turpis dignissim, at facilisis elit ultrices. Ali quam eu feugiat diam. Cras molestle purus ornare venenatis condimentum. Curabitur lobortis nisi in consectetur rhoncus. </p>
+                            <img class="app-tout__iphone phone" alt="iphone6" src="/assets/images/iphone-mobile.png"
+                            height="352px" width="199px"/>
+                            <img class="app-tout__appstore phone" alt="appstore" height="39px" width="130px" src="/assets/images/appstore-mobile.png"/>
+                            <img class="app-tout__googleplay phone" alt="googleplay" height="39px" width="111px" src="/assets/images/googleplay-mobile.png"/>
+                            <!--Images for desktop  -->
+                            <img class="app-tout__iphone desktop" alt="iphone6" src="/assets/images/iphone-desktop.png" height="680px"
+                            width="388px"
+                            />
+                            <img class="app-tout__googleplay desktop" alt="googleplay" height="53px" width="152px" src="/assets/images/googleplay-desktop.png"/>
+                            <img class="app-tout__appstore desktop" alt="appstore"  src="/assets/images/appstore-desktop.png" height="53px" width="179px"/>
+                </div>
+            </div>
+            <div class="docuseries">
+                <div class="docuseries-container">
+                    <h3 class="docuseries-subheading"> DONEC LIBERO LACUS </h3>
+                        <h2 class="docuseries-heading"> Pellentesque <br/> A Quam </h2>
+                            <p class="docuseries-content">Pellentesque tempor tortor sed turpis dignissim, at failisis elit ultrices. Ali quam eu feugiat diam. Cras molestle purus ornare venenatis condimentum. Curabitur lobortis hisl in cosectetur rhoncus. </p>
+                </div>
+            </div>
+            <div class="magazine">
+                <h2 class="magazine__header"> Magazine </h2>
+                    <hr class="magazine__underline"/>
+                <div class="magazine-container">
+                    <img class="phone magazine-portrait" alt="portrait3" src="/assets/images/portrait3-mobile.png"/>
+                    <img class="desktop magazine-portrait" alt="portrait3" src="/assets/images/portrait3-desktop.png"/>
+                        <h3 class="magazine-subheader"> PROIN PRETIUM DIAM EGET ERAT </h3>
+                            <h2 class="portrait-header"> SED MAXIMUS ACCUMSAN </h2>
+                                <p class="phone magazine-content"> Nam ante metus, vehicula quis dolor in volutpat condimentum libero... </p>
+                                <p class="desktop magazine-content"> Nam ante metus, vehicula quis dolor in volutpat condimentum libero. Curabitur sed arcu purus. Proin viverra in qugue eget hendrerit. Cras vel nisl augue. Cras lacinia egestas ante quis ultrices. </p>
+                                <p class="magazine-link"> READ MORE </p>
+                </div>
+                <hr class="magazine__line-break"/>
+                <div class="magazine-container">
+                    <img class="phone magazine-portrait" alt="portrait2" src="/assets/images/portrait2-mobile.png"/>
+                    <img class="desktop magazine-portrait" alt="portrait2" src="/assets/images/portrait2-desktop.png"/>
+                        <h3 class="magazine-subheader"> VESTIBULUM ULLAMCORPER </h3>
+                            <h2 class="portrait-header"> QUISQUE ET TEMPOR </h2>
+                                <p class="phone magazine-content"> Quisque et tempor nulla. Fusce eget ante vestibulum sem rhoncus faucibus... </p>
+                                <p class="desktop magazine-content"> Quisque et tempor nulla. Fusce eget ante vestibulum sem rhoncus faucibus nec dictum velit. Proin pretium diam eget erat molestle fringilla. Integer in enim in nibh tempor convallis. Vestibulum enim lorem, fringilla pos convallis eu, tincidunt non eros. Morbi commo do felis vel sapien susscipit feugiat. </p>
+                                <p class="magazine-link"> READ MORE </p>
+                </div>
+                <hr class="magazine__line-break"/>
+                <div class="magazine-container">
+                    <img class="phone magazine-portrait" alt="portrait1" src="/assets/images/portrait1-mobile.png"/>
+                    <img class="desktop magazine-portrait" alt="portrait1" src="/assets/images/portrait1-desktop.png"/>
+                        <h3 class="magazine-subheader"> CURABITUR SED ARCU </h3>
+                            <h2 class="portrait-header"> NAM ANTE METUS </h2>
+                                <p class="phone magazine-content"> Nullam porta tortor eros, et condimentum nulla consequat at. Integer gravida...</p>
+                                <p class="desktop magazine-content"> Nullam porta tortor eros, et condimentum nulla consequat at. Integer gravida iaculis neque non commodo. Mauris fringilla ipsum ac tempus hendrerit. Duis accumsan eros eu aliquet. Maecenas congue dolor a magna luctus, venenatis sodales nisi lobortis. </p>
+                                <p class="magazine-link"> READ MORE </p>
+                </div>
+            </div>
+            <div class="location">
+                <div class="location-container">
+                    <h3 class="location-subheading"> NUNC FAUCIBUS </h3>
+                        <h2 class="location-heading"> SED NEC RUTRUM </h2>
+                            <p class="location-content"> Nunc ut dui magna. Nunc scelerisque eget lorem non dapibus. Nam lacus turpis, varius quis dolor quis molestle imperdiet libero. </p>
+                                <button class="location-btn"> LEARN MORE </button>
+                </div>
+            </div>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="/assets/js/dist/app.min.js"></script>
+        <script src="/assets/js/dist/index.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    </body>
+
 </html>
